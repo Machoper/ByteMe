@@ -19,7 +19,7 @@ before_install:
   - docker start mysql
 
 before_script:
-  - cd cs4501/app
+  - cd app
   - docker-compose up -d
 
 # command to install dependencies
